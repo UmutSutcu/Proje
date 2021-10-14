@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+
 int sabit = 50 ;
 
 struct kayit{
@@ -22,6 +24,7 @@ void indexDosyasiOlustur(){
     }
     fclose(ogrinfo);
 }
+
 void indeksDosyasiniGoster(){
 
     ogrinfo = fopen("veri.txt","r");
@@ -33,6 +36,7 @@ void indeksDosyasiniGoster(){
     fclose(ogrinfo);
 
 }
+
 void kayitGuncelle(int i ){
     printf("%d.ogrencinin notu:%d ",i,sinif[i].puan);
     printf("\nYeni notunu giriniz: ");
@@ -45,6 +49,7 @@ void kayitGuncelle(int i ){
     indexDosyasiOlustur();
 
 }
+
 void kayitEkle(){
     sabit++;
     printf("Yeni ogrencinin no: ");
@@ -60,6 +65,25 @@ void kayitEkle(){
     fprintf(ogrinfo,"%d.ogrencinin notu:%d \n\n\n",sabit,sinif[sabit].puan);
     fclose(ogrinfo);*/
     indexDosyasiOlustur();
+}
+
+
+void indeksDosyasiniSil(){
+    int sonuc;
+
+    printf("Dosya silinecek! Devam edecek misiniz (E/H)?");
+    if (toupper(getche())=='E'){
+        sonuc = remove("veri.txt");
+
+    }
+    if(sonuc == 0){
+        printf("\n\nDosya basariyla silindi.");
+    }
+    else{
+        printf("Dosya silinemedi");
+    }
+
+
 
 }
 
@@ -71,7 +95,7 @@ int main()
         for(int i= 0 ;i<50;i++){
             sinif[i].ogrno=rand()%100;
             sinif[i].derskodu=rand()%3+1;
-            sinif[i].puan=rand()%100;
+            sinif[i].puan=rand()%50+50;
         }
 
         int sec=1;
@@ -81,6 +105,7 @@ int main()
             printf("2-)Kayit guncelle\n");
             printf("3-)Kayit ekle\n");
             printf("4-)indeks dosyasini goster\n");
+            printf("5-)indeks dosyasini siler\n");
             printf("0-)Cikis\n");
             printf("Birini seciniz lutfen: ");
             scanf("%d",&sec);
@@ -97,12 +122,15 @@ int main()
                     break;
                 case 3:
                     kayitEkle();
+                    break;
                 case 4:
                     indeksDosyasiniGoster();
-
+                    break;
+                case 5:
+                    indeksDosyasiniSil();
+                    break;
 
             }
-
 
 
         }
