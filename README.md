@@ -6,5 +6,8 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
     txt dosyası ile kullanılacak
 
 2.Proje:
-    Suffix ağacı kullanarak string üzerinde arama
+    Suffix tree kullanarak string üzerinde arama
+    Ukkonen's Suffix tree kullanılmıştır
+    
+3.Proje:
     
