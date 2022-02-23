@@ -10,4 +10,6 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
     Ukkonen's Suffix tree kullanılmıştır
     
 3.Proje:
+    Havalimanı sistemi
+    txt dosyaları üzerinde çalışma
     
