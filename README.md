@@ -13,3 +13,6 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
     Havalimanı sistemi
     txt dosyaları üzerinde çalışma
     
+4.Proje:
+    C kodlarınını Big(o) zamam karmaşıklığı ve Hafıza (yer) karmaşıklığını hesaplamak
+    
