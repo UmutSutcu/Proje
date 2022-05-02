@@ -16,3 +16,6 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
 4.Proje:
     C kodlarınını Big(o) zamam karmaşıklığı ve Hafıza (yer) karmaşıklığını hesaplamak
     
+5.Proje:
+    Arduino ile akıllı ev sistemi
+    
