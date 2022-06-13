@@ -18,4 +18,7 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
     
 5.Proje:
     Arduino ile akıllı ev sistemi
+   
+6.Proje:
+    Masaüstü banka uygulaması
     
