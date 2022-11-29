@@ -21,4 +21,9 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
    
 6.Proje:
     Masaüstü banka uygulaması
-    
+
+7.Proje:
+    E-ticaret sitelerindeki laptop kategorisindeki ürünlerin karşılaştırıldığı bir site 
+
+8.Proje:
+    Big data üzerinde multithreading yardımıyla benzer cümleleri bulma
