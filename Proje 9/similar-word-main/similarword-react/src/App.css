@@ -1,0 +1,23 @@
+.content {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.inputs {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.header {
+  position: center;
+  text-align: center;
+  color: black;
+}
+.navbar {
+  background : linear-gradient(120deg, navajowhite, skyblue);
+
+}
+
+
