@@ -27,3 +27,6 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü projeleri
 
 8.Proje:
     Big data üzerinde multithreading yardımıyla benzer cümleleri bulma
+   
+9.Proje:
+    Metinlerin uygun bir şekilde birleştirildiği bir website
